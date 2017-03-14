@@ -1,6 +1,6 @@
 {
     "id": "mesosapp",
-    "cmd": "gcc main.c; sleep 10",
+    "cmd": "gcc main.c; docker build -t;sleep 10",
     "mem": 32,
     "cpus": 0.1,
     "instances": 2,
